@@ -63,7 +63,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background('#FF8800');
+  background(0);
 
   pixelDensity(displayDensity());
 
@@ -110,7 +110,7 @@ function draw() {
   }
 
   if (scene == 2) {
-    background(0);
+    background('#333333');
     imageShuffler(i);
     captionShuffler(i);
 
@@ -146,7 +146,7 @@ function imageShuffler(i) {
 
 function captionShuffler(i) {
   //Print caption
-  fill(255);
+  fill('#FF8800');
   textSize(16);
   textAlign(CENTER, CENTER);
   text(captions[i], width / 2, posY + 320);
