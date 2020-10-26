@@ -154,6 +154,7 @@ function captionShuffler(i) {
 
 function end() {
   background(0);
+  fill(255);
   text("Saul Bass 'Psycho' storyboards", width / 2, height / 2 - 20);
   text("Sherry Hale 'Gray with questions'", width / 2, height / 2);
   text("Click to replay", width / 2, height / 2 + 40);
